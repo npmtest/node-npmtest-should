@@ -1,6 +1,6 @@
 # npmtest-should
 
-#### test coverage for  [should (v11.2.1)](https://github.com/shouldjs/should.js)  [![npm package](https://img.shields.io/npm/v/npmtest-should.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-should) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-should.svg)](https://travis-ci.org/npmtest/node-npmtest-should)
+#### basic test coverage for  [should (v11.2.1)](https://github.com/shouldjs/should.js)  [![npm package](https://img.shields.io/npm/v/npmtest-should.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-should) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-should.svg)](https://travis-ci.org/npmtest/node-npmtest-should)
 
 #### test framework agnostic BDD-style assertions
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-should/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-should/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-should/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-should/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-should/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-should/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-should/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-should/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-should/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-should/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-should/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-should/build/coverage.html/index.html)
 
@@ -113,7 +113,8 @@
         "test": "mocha -R mocha-better-spec-reporter --color --check-leaks ./test/*.test.js ./test/**/*.test.js",
         "zuul": "zuul -- ./test/**/*.test.js ./test/*.test.js"
     },
-    "version": "11.2.1"
+    "version": "11.2.1",
+    "bin": {}
 }
 ```
 
